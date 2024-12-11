@@ -24,7 +24,7 @@ export default async function Home() {
       </div>
 
       <section className="">
-        <Image src='/Group 232.png' className="w-screen" width={355555533} height={3355555553} alt="main image"></Image>
+        <Image src='/Group 232.png' className="w-screen" width={663} height={663} alt="main image"></Image>
       </section>
     </div>
   );
