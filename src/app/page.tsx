@@ -7,7 +7,7 @@ export default async function Home() {
         {/* Add padding or margin to avoid clipping */}
         {/* <div className="text-black text-5xl mb-4">LUPITU</div> */}
         <Image
-        src="/logo.svg"
+        src="/Logo.svg"
         width={160}
         draggable={false}
         height={160}
