@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        impact: ['Impact', 'sans-serif'], // Add Impact font
+        impacted: ['Impacted', 'sans-serif'], // Add Impacted font
+        unicodeImpact: ['UnicodeImpact', 'sans-serif'], // Add Unicode Impact font
+      },
     },
   },
   plugins: [],
