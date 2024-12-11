@@ -2,10 +2,18 @@ import Image from "next/image";
 
 export default async function Home() {
   return (
-    <section className="flex justify-center mt-3 flex-col items-center">
+    <section className="flex justify-center my-5 flex-col items-center">
       <div className="w-full flex items-center flex-col justify-center">
         {/* Add padding or margin to avoid clipping */}
-        <div className="text-black text-5xl mb-4">LUPITU</div>
+        {/* <div className="text-black text-5xl mb-4">LUPITU</div> */}
+        <Image
+        src="/logo.svg"
+        width={160}
+        height={160}
+        alt="main image"
+        priority
+        quality={100}
+      />
         <div
           className="bg-cover bg-no-repeat w-full"
           style={{
@@ -18,7 +26,7 @@ export default async function Home() {
         </div>
       </div>
       <Image
-        src="/Group 232 (1).png"
+        src="/Group 232.svg"
         className="w-[90%] hidden sm:block mt-6" // Adjusted spacing
         width={1000}
         height={1000}
@@ -27,7 +35,7 @@ export default async function Home() {
         quality={100}
       />
       <Image
-        src="/Mobile Banner (1).png"
+        src="/Mobile Banner.svg"
         className="w-[90%] block sm:hidden mt-6" // Adjusted spacing
         width={1000}
         height={1000}
