@@ -15,7 +15,7 @@ export default {
       fontFamily: {
         impact: ['Impact'], // Add Impact font
         impacted: ['Impacted'], // Add Impacted font
-        unicodeImpact: ['UnicodeImpact' ], // Add Unicode Impact font
+        unicodeImpact: ['UnicodeImpact'], // Add Unicode Impact font
       },
     },
   },
