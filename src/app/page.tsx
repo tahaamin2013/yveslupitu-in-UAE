@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default async function Home() {
   return (
-    <section className="flex justify-center h-screen flex-col items-center">
-       <div className="w-full flex items-center flex-col justify-center">
-     <div className="text-black text-5xl mt-10  "  >LUPITU</div>
+    <section className="flex justify-center mt-[50px] h-screen flex-col items-center">
+       <div className="w-full flex items-center  flex-col justify-center">
+     <div className="text-black text-5xl  "  >LUPITU</div>
      <div
           className="bg-cover bg-no-repeat w-full"
           style={{
