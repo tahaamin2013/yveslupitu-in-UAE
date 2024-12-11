@@ -7,7 +7,7 @@ export default async function Home() {
       <div />
 
       <div className="w-full flex items-center flex-col justify-center">
-      <div className="font-impact text-black text-5xl">LUPITU</div>
+      <div className="text-black text-5xl">LUPITU</div>
       <div
           className="bg-cover bg-no-repeat w-full"
           style={{
@@ -15,7 +15,7 @@ export default async function Home() {
             backgroundImage: `url(https://beautybugz.com/Gradient%20for%20comming%20soon.jpg)`,
           }}
         >
-          <h1 className=" py-3 font-bold text-5xl sm:text-7xl bg-[#E5E5E5] mix-blend-lighten uppercase text-center">
+          <h1 className="py-3 font-bold text-5xl sm:text-7xl bg-[#E5E5E5] mix-blend-lighten uppercase font-sans text-center">
             Coming Soon
           </h1>
         </div>
