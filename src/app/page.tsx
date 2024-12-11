@@ -37,7 +37,7 @@ export default async function Home() {
         quality={100}
         />
       <Image
-        src="/Mobile Banner.svg"
+        src="/Group 234.svg"
         className="w-[90%] block sm:hidden mt-6" // Adjusted spacing
         width={1000}
         height={1000}
