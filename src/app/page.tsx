@@ -6,7 +6,7 @@ export default async function Home() {
 
       <div />
 
-      <div className="  w-full flex items-center flex-col justify-center">
+      <div className="w-full flex items-center flex-col justify-center">
       <div className="font-impact text-black text-5xl">LUPITU</div>
       <div
           className="bg-cover bg-no-repeat w-full"
@@ -23,7 +23,7 @@ export default async function Home() {
 
       </div>
 
-      <section className="">
+      <section>
         <Image src='/Group 232.png' className="w-screen" width={1000} height={1000} alt="main image"></Image>
       </section>
     </div>
